@@ -15,7 +15,7 @@ Pipelines and Jenkins test.
 
     This command creates two files: jenkins_agent, which holds the private key, and jenkins-agent.pub, the public key.
 
-    Login to Jenkinks.
+    Login to Jenkinks.  
     Start with the Manage Jenkins menu.
     Then go to Manage Credentials.
     Click Jenkins under Stores scoped to Jenkins.

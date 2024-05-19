@@ -1,5 +1,5 @@
 # Dockerfile to create a Jenkins image with Docker Engine included.
-FROM jenkins/devops:1.0
+FROM jenkins/jenkins
 USER root
 
 RUN apt-get update && \
