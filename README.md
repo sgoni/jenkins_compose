@@ -31,3 +31,7 @@ Pipelines and Jenkins test.
 
 4- Adding Docker to Jenkins image
     Dockerfile to create a Jenkins image with Docker Engine included
+
+5- Run this command for set privilegies:
+    docker exec -it --user root jenkins bash
+    chown jenkins /var/run/docker.sock    
