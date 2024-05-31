@@ -1,7 +1,7 @@
 version: '3'
 services:
     jenkins:
-        image: jenkins/devops:1.0
+        image: phantom1336/devops:1.0
         privileged: true
         user: root        
         container_name: jenkins        
